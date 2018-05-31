@@ -81,7 +81,7 @@ for tenantsn in tenantshortnamelist:
                                 if 'GB' in quotarawvalue:
                                     quotavalue = match.group()
                                     quotavaluefloat = float(quotavalue)
-                                    quotavalueinbytes = (quotavaluefloat*1024*1024*1024*1024)
+                                    quotavalueinbytes = (quotavaluefloat*1024*1024*1024)
                                 else:
                                     quotavalue = match.group()
                                     quotavaluefloat = float(quotavalue)
