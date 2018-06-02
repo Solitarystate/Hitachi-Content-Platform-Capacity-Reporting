@@ -16,7 +16,7 @@ script: `TenantName`, `NamespaceName`, `TotalCapacity or the hard quota set for 
 `total current Object count in that namespace`, `todays Date`. All of this information is dropped into a mysql database. 
 Any analysis can be done from the data in the database at a future point '''
 
-url = 'sehcp1.hcp.hm.com'
+url = '<hcpname>.hcp.<domain>.com'
 tenantshortnamelist = []
 tenantfullnamelist = []
 namespacenamelist = []
